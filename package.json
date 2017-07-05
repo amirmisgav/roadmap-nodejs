@@ -1,0 +1,21 @@
+{
+    "name": "roadmap-5-7-17",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js --watch server.js",
+        "start": "node server.js",
+        "build": "npm run build.js; npm run build:css",
+        "postinstall": "echo something"
+    },
+    "author": "Amir Misgav",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.15.3"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    }
+}
