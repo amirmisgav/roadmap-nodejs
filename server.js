@@ -8,7 +8,7 @@ const tasks = require('./src/routes')
 
 // app.post('hello2',(req, res) => res.send('hello2'))
 
-// app.use((req, res) => res.send('hello1'))
+app.use((req, res) => res.send('hello1'))
 
 app.use('/tasks', tasks)
 
